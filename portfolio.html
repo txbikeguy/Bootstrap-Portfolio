@@ -2,16 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>"Portfolio Index</title>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<title>"Ben Cross Portfolio</title>
+	<!-- Link to CSS Reset -->
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
+	<!-- Most recent Bootstrap Library -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<!-- Favicon Image -->
 	<link rel="shortcut icon" href="Assets/Images/bikefavicon.ico" type="image/x-icon">
-
+	<!-- Link to custom CSS -->
+	<link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
 </head>
-<style>
-	a {
-		text-decoration: none !important;
-	}
-</style>
 
 <body>
 
@@ -27,7 +27,7 @@
 	</header>	 	
 	
 	<div class="container-fluid">
-		<div class="row jumbotron jumbotron-fluid">
+		<div class="row jumbotron jumbotron-fluid mb-0">
 			<div class="col-md-8">	
 				<h2>Portfolio</h2>
 
@@ -37,37 +37,37 @@
 					<div class="row">
 						<div class="col-sm-6 text-center">
 							<div class="mx-auto">
-								<a href="https://txbikeguy.github.io/GroupProject1/" target="_blank"><img class="rounded" src="Assets/Images/coffee.jpg" alt="board"></a>
+								<a href="https://txbikeguy.github.io/GroupProject1/" target="_blank"><img class="rounded img-fluid" src="Assets/Images/coffee.jpg" alt="coffee"></a>
 								<h3>A Perfect Cup</h3>
 							</div>
 
 							<div class="mx-auto">	
-								<a href="https://github.com/txbikeguy/nodeHangman" target="blank"><img class="rounded" 
-									src="Assets/Images/hangman.jpg" alt="city"></a>
+								<a href="https://github.com/txbikeguy/nodeHangman" target="blank"><img class="rounded img-fluid" 
+									src="Assets/Images/hangman.jpg" alt="hangman"></a>
 								<h3>Node.js Hangman</h3>
 							</div>
 
 							<div class="mx-auto">
-								<a href="#" target="blank"><img class="rounded" src="Assets/Images/dj.jpg" alt="dj"></a>
-								<h3>Trivia Game</h3>
+								<a href="#" target="blank"><img class="rounded img-fluid" src="Assets/Images/dj.jpg" alt="dj"></a>
+								<h3 class="example">Trivia Game</h3>
 							</div>
 						</div>
 
 						<div class="col-sm-6 text-center">
 							<div class="mx-auto">
-								<a href="https://txbikeguy.github.io/GifTastic/" target="_blank"><img class="rounded" src="Assets/Images/giphy.gif" alt="food"></a>
-								<h3>Gif-Tastic Gif Search</h3>
+								<a href="https://txbikeguy.github.io/GifTastic/" target="_blank"><img class="rounded img-fluid" src="Assets/Images/giphy.gif" alt="gif"></a>
+								<h3>Gif Search</h3>
 							</div>
 
 							<div class="mx-auto">
-								<a href="https://github.com/txbikeguy/liri-node-app" target="blank"><img class="rounded" 
-									src="Assets/Images/node.png" alt="moto"></a>
+								<a href="https://github.com/txbikeguy/liri-node-app" target="blank"><img class="rounded img-fluid" 
+									src="Assets/Images/node.png" alt="node"></a>
 								<h3>Liri Node App</h3>
 							</div>
 
 							<div class="mx-auto">
-								<a href="#" target="blank"><img class="rounded" src="Assets/Images/abstract.jpg" alt="abstract"></a>
-								<h3>Bike Stats App</h3>
+								<a href="#" target="blank"><img class="rounded img-fluid" src="Assets/Images/abstract.jpg" alt="abstract"></a>
+								<h3 class="example">Bike Stats App</h3>
 							</div>
 						</div>
 					</div>
@@ -87,10 +87,8 @@
 		</div>
 	</div>
 		
-	<footer class="footer bg-dark">
-		<div class="container text-center">
-			<span class="text-light">Copyright&copy; 2017 Ben Cross</span>
-		</div>
+	<footer class="footer bg-dark text-center pt-2">
+		<span class="text-light">Copyright&copy; 2017 Ben Cross</span>
 	</footer>			
 
 </body>
